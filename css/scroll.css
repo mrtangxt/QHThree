@@ -1,0 +1,96 @@
+html,body {
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+   /* font-family: microsoft yahei,Helvetica,STHeiTi,helvetica neue,微软雅黑,SimSun,sans-serif*/
+}
+
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,address {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-weight: 400
+}
+
+._container {
+    height: 66px;
+    overflow: hidden;
+    text-align: center;
+    color:#fff;
+    width: 80px;
+    display: inline-block;
+}
+
+._container li {
+    height: 60px;
+    line-height: 60px;
+    padding: 5px 0;
+    font-size: 15px
+}
+
+._container li:first-child {
+    margin-top: 0;
+    transition: margin-top .8s
+}
+
+._container li span{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+}
+.navBig{
+    position: absolute;
+    top: 250px;
+    right: 240px;
+}
+.nav-scrollbar{
+    position: absolute;
+    left: 10px;
+    width: 215px;
+    height: 66px;
+    line-height: 66px;
+    border-radius: 37px;
+    box-shadow: 0px 0px 12px #eee;
+}
+.demo1{
+    top: 90px;
+}
+.demo2{
+    top: 10px;
+}
+.demo3{
+    top: 180px;
+}
+.nav-scrollbar img{
+    width: 100px;
+    height: 90px;
+    float: left;
+    position: relative;
+    top: -11px;
+    left: -12px;
+}
+
+._container li i{
+    font-style: inherit;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.nav-title{
+    width: 80px;
+    height: 66px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+}
+
+
+
+
+
